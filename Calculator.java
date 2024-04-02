@@ -3,7 +3,7 @@ package com.mycompany.calculator;
 import java.util.Scanner;
 
 public class Calculator {
-
+// this method for calculating sum of numbers
     private void sum() {
         Scanner sc = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ public class Calculator {
         double sum = x + y + z;
         System.out.println("Sum of " + x + "+" + y + " +" + z + " = " + sum);
     }
-
+//this method for calculating multiplication of numbers
     private void multiply() {
         Scanner sc = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class Calculator {
         System.out.println("Multyply  of " + x + " X " + y + " = " + mul);
 
     }
-
+//this mathod for calculating divide of numbers
     private void divide() {
         Scanner sc = new Scanner(System.in);
 
@@ -40,7 +40,7 @@ public class Calculator {
         System.out.println("Devide  of " + x + " / " + y + " = " + div);
 
     }
-
+// this method for calculate substrationof numbers
     private void Substration() {
         Scanner sc = new Scanner(System.in);
 
@@ -51,7 +51,7 @@ public class Calculator {
         double div = x - y;
         System.out.println("Substration  of " + x + " - " + y + " = " + div);
     }
-
+//this method for calculate the precentage
     private void precentage() {
         Scanner sc = new Scanner(System.in);
 
@@ -64,7 +64,7 @@ public class Calculator {
         System.out.println("Precentage  of " + x + " by " + y + " = " + pre);
 
     }
-
+//this method for calculate the remainderof the number after the division
     private void remainders() {
         Scanner sc = new Scanner(System.in);
 
@@ -77,7 +77,7 @@ public class Calculator {
         System.out.println("remainders  of " + x + " Dividing by" + y + " = " + rem);
 
     }
-
+//this method for calculate the discount pricess 
     private void discount() {
         Scanner sc = new Scanner(System.in);
 
